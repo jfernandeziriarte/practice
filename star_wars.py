@@ -27,7 +27,7 @@ city = city.lower()
 
 star_name = surname[0:3] + name[0:2]
 star_surname = momname[0:2] + city[0:3]
-star_wars_name = star_name + " " + star_surname #Must work here for make upper-case the first letter
+star_wars_name = star_name + " " + star_surname
 
-print "Tu nuevo nombre es %s" % (star_wars_name)
+print "Tu nuevo nombre es %s" % (star_wars_name.title())
 print "Que la Fuerza sea contigo."
